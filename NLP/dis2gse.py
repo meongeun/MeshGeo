@@ -58,7 +58,7 @@ for gse, pmid in pubmedl[131:]:
 			d[e].append(gse)
 		else:
 			d[e] = [gse]
-		writer.writerow((e,d[e]))
+		writer.writerow((e,d[e],'D'))
 	#print(d)
 
 #	for l in list(exact):
