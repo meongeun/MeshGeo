@@ -15,7 +15,7 @@ print(data_sum[data_sum.duplicated()==True].count())
 data_sum=data_sum.drop_duplicates(subset='GSE').reset_index()
 data_sum[data_sum.duplicated()==True].count()
 
-name_sy=name_new.loc[110109:130000].reset_index()
+name_sy=name_new.loc[122913:124999].reset_index()
 import csv
 import time
 startTime= time.time()
